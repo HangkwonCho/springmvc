@@ -12,7 +12,7 @@ public class LogTestController {
 
     //private final Logger log = LoggerFactory.getLogger(getClass());
     //private final Logger log = LoggerFactory.getLogger(LogTestController.class);
-
+    // 참고 사이트 : https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.logging
     @RequestMapping("/log-test")
     public String logTest() {
         String name = "Spring";
